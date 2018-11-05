@@ -1,0 +1,26 @@
+{
+    "name": "ts-next-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "next": "^7.0.2",
+        "typescript": "^3.1.6"
+    },
+    "dependencies": {
+        "@types/next": "^7.0.3",
+        "@types/react": "^16.4.18",
+        "@types/react-dom": "^16.0.9",
+        "@zeit/next-typescript": "^1.1.1",
+        "react": "^16.6.0",
+        "react-dom": "^16.6.0"
+    }
+}
