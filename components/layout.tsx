@@ -2,6 +2,8 @@ import * as React from "react";
 import Link from "next/link";
 import Head from "next/head";
 
+import "./layout.scss";
+
 interface Props {
     title?: string;
     children: React.ReactNode;
@@ -9,7 +11,7 @@ interface Props {
 
 export function Layout(props: Props): JSX.Element {
     return (
-        <div>
+        <div className="layout">
             <Head>
                 <title>{props.title}</title>
                 <meta charSet="utf-8" />
