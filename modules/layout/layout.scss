@@ -1,0 +1,11 @@
+.layout {
+    .card-list {
+        padding: 1rem;
+
+        .card-image {
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

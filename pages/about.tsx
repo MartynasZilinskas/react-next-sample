@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Layout } from "../components/layout";
+import { Layout } from "../modules/layout";
 
 function About(): JSX.Element {
     return (
